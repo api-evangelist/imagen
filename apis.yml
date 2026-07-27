@@ -1,8 +1,29 @@
 aid: imagen
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/imagen.png
 name: Imagen
-description: 'Imagen is a company surfaced as a portfolio company of gv, threshold-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Imagen (Imagen Technologies) is an AI-enabled, sub-specialized diagnostic
+  imaging partner for independent practices, hospitals, and health systems. It
+  combines in-clinic imaging equipment, FDA-cleared AI algorithms, and a 24/7
+  teleradiology network of fellowship-trained, board-certified specialists to
+  deliver rapid, accurate radiology interpretations, plus advanced analytics for
+  care-gap identification. Imagen operates across 23 states, serving roughly 3.5
+  million patients, and is backed by GV and Threshold Ventures. The company
+  publishes a security program covering SOC 2 Type II, the HITRUST CSF, and
+  HIPAA. Imagen Technologies exposes no public developer API surface at this
+  time. (Note the distinct namesake company Imagen AI, imagen-ai.com, an AI
+  photo-editing product that does publish an API and SDK.)
 url: https://raw.githubusercontent.com/api-evangelist/imagen/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Frontier Tech
+- Healthcare
+- Radiology
+- Medical Imaging
+- Teleradiology
+- Artificial Intelligence
+- Diagnostics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +52,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://imagen.ai
+  url: https://imagen.ai
+- type: Support
+  url: https://imagen.ai/help/
+- type: Blog
+  url: https://imagen.ai/newsroom/
+- type: PrivacyPolicy
+  url: https://imagen.ai/privacy-policy/
+- type: TermsOfService
+  url: https://imagen.ai/terms-of-use/
+- type: Careers
+  url: https://imagen.ai/careers/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/imagen-technologies
+- type: Compliance
+  url: https://imagen.ai/security-policy/
+- type: Conformance
+  url: conformance/imagen-conformance.yml
+- type: TrustCenter
+  url: security/imagen-trust-center.yml
+- type: DomainSecurity
+  url: security/imagen-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

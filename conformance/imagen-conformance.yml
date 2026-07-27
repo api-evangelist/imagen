@@ -1,0 +1,23 @@
+generated: '2026-07-19'
+method: searched
+source: https://imagen.ai/security-policy/
+note: >-
+  Imagen Technologies is a healthcare diagnostic-imaging (teleradiology)
+  provider with no public API surface. Conformance here asserts the published
+  compliance/security programs, not API cross-cutting standards.
+standards:
+- id: soc2-type-ii
+  conforms: true
+  evidence: security-policy page states SOC 2 Type II compliance
+- id: hitrust-csf
+  conforms: true
+  evidence: security-policy page states HITRUST Framework (HITRUST CSF) alignment
+- id: hipaa
+  conforms: true
+  evidence: security-policy page states HIPAA compliance
+- id: hitech
+  conforms: true
+  evidence: security-policy page states HITECH Act influence on design
+- id: nist
+  conforms: true
+  evidence: security-policy page states alignment with NIST best practices
