@@ -2,14 +2,10 @@
   "repo": "imagen",
   "feeds": [
     {
-      "source": "https://imagen.ai/help/feed/",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://imagen.ai/help/",
       "error": "HTTPError"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-07-25T15:00:33Z"
+  "fetched": "2026-08-01T15:49:00Z"
 }
